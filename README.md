@@ -50,6 +50,7 @@ FROM datasets.yelp_reviews
 group BY 1
 ORDER BY useful
 ```
+![ica4](ica4/ica4/4.png)
 ##Q uestion #5
 5.	How many cool reviews for the business with stars?
 ```sql
