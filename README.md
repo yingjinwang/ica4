@@ -4,7 +4,7 @@ USF projects for the SQL questins
 describe the reviews of business with stars and labels by users.
 ## Description of datasets.yelp_checkin
 describe the business through weekday and hours' checkins.
-## Description of datasets.yingjin.yelp_user
+## Description of datasets.yelp_user
 describe how users evaluate a business with their evaluation labels.
 
 ## Question #1
