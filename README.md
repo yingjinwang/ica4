@@ -1,7 +1,11 @@
 # ica4
 USF projects for the SQL questins
-## Description of datasets.yingjin.yelp_reviews
-
+## Description of datasets.yelp_reviews
+describe the reviews of business with stars and labels by users.
+## Description of datasets.yelp_checkin
+describe the business through weekday and hours' checkins.
+## Description of datasets.yingjin.yelp_user
+describe how users evaluate a business with their evaluation labels.
 
 ## Question #1
 1.	How many restaurants with stars?
