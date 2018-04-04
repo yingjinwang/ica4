@@ -41,7 +41,7 @@ ORDER BY review_count DESC
 ```
 ![ica4](ica4/ica4/3.png)
 
-##Question #4
+## Question #4
 4.	  What’s the useful reviews in times?
 
 ```sql
@@ -51,7 +51,7 @@ group BY 1
 ORDER BY useful
 ```
 ![ica4](ica4/ica4/4.png)
-##Q uestion #5
+## Question #5
 5.	How many cool reviews for the business with stars?
 ```sql
 SELECT stars, count(cool) as count_cool
