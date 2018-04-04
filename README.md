@@ -27,3 +27,34 @@ ORDER BY weekday
 ```
 
 ![ica4](ica4/ica4/2.png)
+
+## Question #3
+3.	Count during January 2016 the amount of reviews of users reviews above 300? 
+
+```sql
+SELECT name, review_count
+FROM datasets.yelp_user
+where yelping_since between '2016-01-01' and '2016-01-31' 
+and review_count > 300
+group BY 1,2
+ORDER BY review_count DESC
+```
+
+##Question #4
+4.	  What’s the useful reviews in times?
+
+```sql
+SELECT useful, count(review_id) as count_useful
+FROM datasets.yelp_reviews
+group BY 1
+ORDER BY useful
+```
+##Q uestion #5
+5.	How many cool reviews for the business with stars?
+```sql
+SELECT stars, count(cool) as count_cool
+FROM datasets.yelp_reviews
+group BY 1
+ORDER BY stars
+```
+
