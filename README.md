@@ -25,5 +25,5 @@ FROM datasets.yelp_checkin
 group BY 1
 ORDER BY weekday
 ```
-![ica4](ica4/2.png)
 
+![ica4](ica4/ica4/2.png)
