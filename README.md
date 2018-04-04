@@ -39,6 +39,7 @@ and review_count > 300
 group BY 1,2
 ORDER BY review_count DESC
 ```
+![ica4](ica4/ica4/3.png)
 
 ##Question #4
 4.	  What’s the useful reviews in times?
